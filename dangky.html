@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="dangky.css" />
+    <script src="dangky.js"></script>
+  </head>
+  <body>
+    <form action="trangchu_page.php" method="POST">
+      <div>
+        <label for="acount"> Tài khoản:</label>
+        <br />
+        <input
+          type="text"
+          id="acount"
+          name="acount"
+          placeholder="Nhập tên tài khoản"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="password"> Mật Khẩu:</label>
+        <br />
+        <input
+          type="text"
+          id="password"
+          name="password"
+          placeholder="Nhập mật khẩu"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="name"> Họ tên:</label>
+        <br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Nhập họ tên"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="telephone"> Số điện thoại:</label>
+        <br />
+        <input
+          type="tel"
+          id="telephone"
+          name="telephone"
+          placeholder="Nhập Số điện thoại"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email"> Email:</label>
+        <br />
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Nhập Email"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="date">Ngày Sinh: </label>
+        <br />
+        <input type="date" id="date" name="date" placeholder=" " required />
+      </div>
+      <br />
+      <div>
+        <label for="gender">Giới tính: </label>
+        <br />
+        <label for="man">Nam</label>
+        <input type="radio" id="man" name="gender" value="man" />
+
+        <label for="women">Nữ</label>
+        <input type="radio" id="women" name="gender" value="women" />
+      </div>
+      <br />
+      <div>
+        <label for="info">Bạn biết tôi qua đâu: </label>
+        <br />
+        <select name="info" id="info">
+          <option value="facebook">facebook</option>
+          <option value="youtube">youtube</option>
+          <option value="tiktok">tiktok</option>
+        </select>
+      </div>
+
+      <br />
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>

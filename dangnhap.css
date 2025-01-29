@@ -1,0 +1,133 @@
+body,
+html {
+  height: 100%; /* Đảm bảo chiều cao của trang web đầy đủ */
+  margin: 0; /* Xóa margin mặc định */
+}
+#countnnumber button {
+  background-color: aqua;
+  width: 300px;
+  height: 70px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+}
+
+#count {
+  font-family: Helvetica, sans-serif;
+  font-size: 150px;
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+}
+#countnnumber button:hover {
+  background-color: red;
+}
+#checkbox_radio label,
+#checkbox_radio input {
+  display: block; /* Mỗi nhãn và nút sẽ xuống dòng */
+  margin-bottom: 10px; /* Tạo khoảng cách giữa các dòng */
+}
+#usage {
+  padding-left: 30px;
+}
+#countnnumber {
+  width: 100%;
+  height: auto;
+  text-align: 0;
+  background-color: bisque;
+  position: relative;
+}
+#thongtin_canhan {
+  font-size: 2em;
+  width: auto;
+  height: auto;
+}
+#ussubmit {
+  background-color: aqua;
+  width: 80px;
+  height: 20px;
+}
+
+#test1 {
+  display: flex; /* Kích hoạt Flexbox */
+  flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+  align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+  width: 50%; /* Hoặc một chiều rộng cố định nếu cần */
+  border: 1px solid black; /* Để dễ nhìn */
+  padding: 10px;
+}
+#test1 button {
+  margin: 20px;
+  background-color: aqua;
+}
+#test1 label {
+  font-size: 20px;
+}
+#test1 #thong_bao_trung_thuong {
+  font-size: 30px;
+  display: block; /* Biến label thành một phần tử block để nó chiếm hết chiều ngang */
+  width: 100%; /* Đảm bảo label chiếm hết chiều rộng của div */
+  text-align: center;
+}
+#canngang {
+  display: flex; /* Kích hoạt Flexbox */
+  justify-content: flex-start; /* Căn chỉnh các phần tử con theo chiều ngang */
+  align-items: flex-start; /* Căn chỉnh các phần tử con theo chiều dọc */
+  background-color: rgb(216, 216, 216);
+  width: auto;
+  height: auto;
+  position: relative;
+}
+#thongtin_canhan {
+  background-color: aquamarine;
+  width: 50%;
+}
+/* CSS: Định nghĩa các lớp */
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+#swap_cannang {
+  background-color: rgba(200, 144, 252, 0.774);
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+}
+#swapbtn {
+  background-color: bisque;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+#swapbtn:hover {
+  background-color: aqua;
+}
+#rollxucxac {
+  font-size: 25px;
+  position: relative;
+  text-align: center;
+}
+#btn_roll_xucxac {
+  border: none;
+  background-color: chocolate;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+}
+#anh_xucxac img {
+  width: 50px; /* Điều chỉnh chiều rộng theo ý muốn */
+  height: 50px; /* Điều chỉnh chiều cao theo ý muốn */
+  margin: 5px; /* Thêm khoảng cách giữa các hình */
+}
+
+#btn_roll_xucxac:hover {
+  background-color: blanchedalmond;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dangnhap.css" />
+  </head>
+  <body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <div id="canngang">
+      <div id="thongtin_canhan">
+        <h1 id="hello"></h1>
+        <label> Username: </label>
+        <input id="usname" type="text" placeholder="nhap username" />
+        <label id="thogbaousname"></label>
+        <br />
+        <label> Age : </label>
+        <input id="usage" type="number" placeholder="nhập tuổi" />
+        <label id="thongusage"></label> <br />
+        <label> Phone number: </label>
+        <input id="usphone" type="tel" placeholder="nhap số điện thoại" />
+        <label id="thongbaophone"></label> <br />
+
+        <input type="checkbox" id="myCheckBox" />
+        <label for="myCheckBox">subscribe</label><br /><br />
+
+        <input type="radio" id="visaBtn" name="card" />
+        <label for="visaBtn">Visa</label><br />
+        <input type="radio" id="masterCardBtn" name="card" />
+        <label for="masterCardBtn">MasterCard</label><br />
+        <input type="radio" id="payPalBtn" name="card" />
+        <label for="payPalBtn">PayPal</label><br /><br />
+        <p id="subResult"></p>
+        <p id="paymentResult"></p>
+
+        <button id="ussubmit">submit</button>
+      </div>
+      <div id="test1">
+        <label for="so_may_man">Nhập số may mắn từ 1 - 10: </label>
+        <input
+          id="so_may_man"
+          type="number"
+          placeholder="Nhập 1 số từ 1 - >10"
+        /><br />
+        <label id="thong_bao_trung_thuong" for="so_may_man"></label>
+        <button id="btn_mayman">Xác nhận quay số</button>
+      </div>
+    </div>
+
+    <div id="countnnumber">
+      <label id="count">0</label><br />
+      <button id="decrease">decrease</button>
+      <button id="reset">reset</button>
+      <button id="increase">increase</button>
+      <button id="roll">roll</button>
+    </div>
+    <form id="swap_cannang" action="">
+      <h1>Nhập cân nặng của bạn</h1>
+      <input
+        id="input_cannang"
+        type="number"
+        placeholder="Nhập cân nặng theo kg"
+      />
+      <label for="">Kg</label><br />
+      <input id="to_pound" type="radio" name="cannang" />
+      <label>Cân nặng Kg → Pound </label><br />
+      <input id="to_stone" type="radio" name="cannang" />
+      <label>Cân nặng Kg → Stone </label><br />
+      <p id="result"></p>
+      <button id="swapbtn" type="button" onclick="convert()">Xác nhận</button>
+    </form>
+    <div id="rollxucxac">
+      <h1>Roll xuc xac</h1>
+      <label for="">roll </label>
+      <input id="input_xucxac" type="number" value="1" min="1" />
+      <button id="btn_roll_xucxac" onclick="roll_xucac()">Roll</button>
+      <div id="ketqua_xucxac"></div>
+      <div id="anh_xucxac"></div>
+    </div>
+
+    <script src="dangnhap.js"></script>
+  </body>
+</html>
